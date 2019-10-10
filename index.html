@@ -10,11 +10,15 @@
     <link rel="icon" href="assets/images/iS_LOGO_CMYK-2.png" sizes="192x192">
     <link rel="apple-touch-icon-precomposed" href="assets/images/iS_LOGO_CMYK-2.png">
     <meta name="msapplication-TileImage" content="assets/images/iS_LOGO_CMYK-2.png">
-
+    <!--
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'nonce-SuperRandom'; font-src https://themes.googleusercontent.com ">
+    -->
+    <!-- https://stackoverflow.com/questions/18447970/content-security-policy-data-not-working-for-base64-images-in-chrome-28 -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src https://themes.googleusercontent.com ; style-src 'unsafe-inline'; connect-src *; img-src 'self' data:; frame-src *;">
 <link rel="stylesheet" href="styles.02633ac2879e65100e86.css"></head>
 
 <body>
     <app-root></app-root>
-<script src="runtime.69aad174de386c36a16c.js" defer></script><script src="polyfills-es5.045c3f9bbebf05f36037.js" nomodule defer></script><script src="polyfills.cb17f21aee4a5cda319d.js" defer></script><script src="main.28fb050fde678913e51e.js" defer></script></body>
+<script src="runtime.69aad174de386c36a16c.js" defer></script><script src="polyfills-es5.510e764a69d2177eb641.js" nomodule defer></script><script src="polyfills.b5e00bc70f21090ce7f3.js" defer></script><script src="main.22361b2f8b0b681ef20e.js" defer></script></body>
 
 </html>
