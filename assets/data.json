@@ -1,0 +1,131 @@
+{
+    "name": "A1-Cars",
+    "flag": false,
+    "usechildren": [
+        {
+            "name": "test"
+        }
+    ],
+    "children": [
+        {
+            "name": "B1-Auto trade",
+            "flag": true,
+            "children": [
+                {
+                    "name": "C1",
+                    "visited": true,
+                    "size": 3534,
+                    "flag": false
+                },
+                {
+                    "name": "C2",
+                    "visited": true,
+                    "size": 3534
+                },
+                {
+                    "name": "C3-SUVs",
+                    "flag": false,
+                    "children": [
+                        {
+                            "name": "D1-Ford",
+                            "size": 3534,
+                            "flag": true
+                        },
+                        {
+                            "name": "D2",
+                            "visited": true,
+                            "size": 3534
+                        },
+                        {
+                            "name": "D3",
+                            "visited": true,
+                            "size": 3534
+                        },
+                        {
+                            "name": "D4-Honda",
+                            "children": [
+                                {
+                                    "name": "E1-CRV",
+                                    "size": 3534,
+                                    "flag": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+	    ]
+        },
+	{
+            "name": "B2-Old trucks",
+            "children": [
+                {
+                    "name": "C4",
+                    "visited": true,
+                    "size": 3534
+                },
+                {
+                    "name": "C5-Pickup trucks",
+                    "children": [
+                        {
+                            "name": "D5-Ford Ranger",
+                            "size": 3534
+                        },
+                        {
+                            "name": "D6-Dakota",
+                            "visited": true,
+                            "size": 3534
+                        },
+                        {
+                            "name": "D7",
+                            "visited": true,
+                            "size": 3534
+                        },
+                        {
+                            "name": "D8-Toyota",
+                            "children": [
+                                {
+                                    "name": "E2-Tundra",
+                                    "size": 3534
+                                }
+                            ]
+                        }
+                    ]
+                }
+	   ]
+        },
+	{
+            "name": "B3-Old cars",
+            "children": [
+                {
+                    "name": "C6-old cars for sale",
+                    "visited": true,
+                    "size": 3534
+                },
+                {
+                    "name": "C7-vintage cars",
+                    "children": [
+                        {
+                            "name": "D9-Vintage cars for sale",
+                            "size": 3534
+                        },
+                        {
+                            "name": "D10-Vintage car collecting",
+                            "visited": true,
+                            "size": 3534
+                        },
+                        {
+                            "name": "D11-Vintage cars for rent",
+                            "children": [
+                                {
+                                    "name": "E3-Buick Roadmaster 1957",
+                                    "size": 3534
+                                }
+                            ]
+                        }
+                    ]
+                }
+	   ]
+        }
+
+    ]
+}
