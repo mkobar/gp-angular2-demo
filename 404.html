@@ -27,17 +27,48 @@
     <!-- allow cdnjs.cloudflare.com
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdnjs.cloudflare.com; font-src 'self' data: fonts.googleapis.com; style-src 'self' 'unsafe-inline' data: fonts.googleapis.com; connect-src *; img-src 'self' data:; frame-src *;">
     -->
-
+    <!-- no script sites 
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self' data: fonts.googleapis.com; style-src 'self' 'unsafe-inline' data: fonts.googleapis.com; connect-src *; img-src 'self' data:; frame-src *;">
-
+   -->
     <!-- no fonts
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self' data:; style-src 'self' 'unsafe-inline' data: ; connect-src *; img-src 'self' data:; frame-src *;">
     -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com data: www.google-analytics.com; font-src 'self' data: fonts.googleapis.com; style-src 'self' 'unsafe-inline' data: fonts.googleapis.com; connect-src *; img-src 'self' data: www.google-analytics.com; frame-src *;">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169379614-3"></script>
+-->
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<link rel="stylesheet" href="styles.6147c29f929426f00e6e.css"></head>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        //gtag('config', 'UA-169379614-1');
+        //gtag('send', 'pageview');
+    </script>
+
+</html>
+
+<link rel="stylesheet" href="styles.300a53d06948711eec9a.css"></head>
 
 <body>
     <app-root>Loading...</app-root>
-<script src="runtime.7d7e9038a1cdbceb3d53.js" defer></script><script src="polyfills-es5.83c96cd67f2ebaf6f424.js" nomodule defer></script><script src="polyfills.d3a038f34b126a079dfa.js" defer></script><script src="main.498c22f4fadb3c20397d.js" defer></script></body>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169379614-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  //gtag('config', 'UA-169379614-1');
+  //gtag('send', 'pageview');
+</script>
+-->
+<script src="runtime.7d7e9038a1cdbceb3d53.js" defer></script><script src="polyfills-es5.46e2ff0331e094163110.js" nomodule defer></script><script src="polyfills.c06a424125ace1206f88.js" defer></script><script src="main.a3a1ce4c42f2ef84c741.js" defer></script></body>
 
 </html>
